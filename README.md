@@ -11,7 +11,7 @@
 
 <hr>
 
-**[Link do slide do curso:](https://edijunior88.github.io/FreeCodeCamp_Acessibilidade_Aplicada/)**
+**Link do slide do curso: [https://edijunior88.github.io/FreeCodeCamp_Acessibilidade_Aplicada/](https://edijunior88.github.io/FreeCodeCamp_Acessibilidade_Aplicada/)**
 
 <hr>
 
