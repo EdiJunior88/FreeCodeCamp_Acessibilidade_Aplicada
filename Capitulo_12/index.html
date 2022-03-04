@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Envolver botões de opção em um elemento fieldset para melhor acessibilidade</title>
+</head>
+<body>
+  <h1>Envolver botões de opção em um elemento fieldset para melhor acessibilidade</h1>
+
+  <p>O próximo tópico sobre formulários aborda a acessibilidade dos botões de opção (radio buttons). Cada opção recebe um <code>label</code> com um atributo <code>for</code>, que será vinculado ao <code>id</code> do item correspondente, conforme abordado no último desafio. Como os botões de opção geralmente fazem parte de um grupo em que o usuário deve escolher um, há uma maneira de mostrar semanticamente que as opções fazem parte de um conjunto.</p>
+
+  <p>A tag <code>fieldset</code> envolve todo o grupo de botões de opção para fazer isso. Frequentemente, usa-se uma tag <code>legend</code> para fornecer uma descrição para o agrupamento, que é lida por leitores de tela para cada opção no elemento <code>fieldset</code>.</p>
+
+  <p>O wrapper <code>fieldset</code> e a tag <code>legend</code> não são necessários quando as escolhas são autoexplicativas, como uma seleção de gênero. Usar um <code>label</code> com o atributo <code>for</code> para cada botão de opção é suficiente.</p>
+
+  <p>Exemplo:</p>
+
+  <pre>
+    &ltform&gt
+      &ltfieldset&gt
+        &ltlegend>Choose one of these three items:&lt/legend&gt
+        &ltinput id="one" type="radio" name="items" value="one"&gt
+        &ltlabel for="one"&gtChoice One&lt/label&gt&ltbr&gt
+        &ltinput id="two" type="radio" name="items" value="two"&gt
+        &ltlabel for="two"&gtChoice Two&lt/label&gt&ltbr&gt
+        &ltinput id="three" type="radio" name="items" value="three"&gt
+        &ltlabel for="three&gt>Choice Three&lt/label&gt
+      &lt/fieldset&gt
+    &lt/form&gt
+  </pre>
+
+  <p>O Camper Cat quer informações sobre o nível ninja dos usuários quando eles se inscrevem em sua lista de e-mail. Ele adicionou um conjunto de botões de opção e aprendeu em nossa última lição a usar tags <code>label</code> com atributos <code>for</code> para cada opção. É isso aí, Camper Cat! No entanto, o código ainda precisa de uma revisão. Altere a tag <code>div</code> ao redor dos botões de opção para uma tag <code>fieldset</code> e altere a tag <code>p</code> dentro dela para uma <code>legend</code>.</p>
+</body>
+</html>
