@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Evitar problemas de daltonismo usando o contraste suficiente</title>
+</head>
+<body>
+  <h1>Evitar problemas de daltonismo usando o contraste suficiente</h1>
+
+  <p>A cor é uma grande parte do design visual, mas a sua utilização introduz duas questões de acessibilidade. Primeiro, a cor, por si só, não deve ser usada como a única maneira de transmitir informações importantes, pois usuários de leitores de tela não vão vê-la. Em segundo lugar, as cores de fundo e de primeiro plano precisam ter contraste suficiente para que os usuários daltônicos possam distingui-las.</p>
+
+  <p>Os desafios anteriores abordaram alternativas textuais para resolver o primeiro problema. O último desafio introduziu ferramentas de verificação de contraste para ajudar com o segundo. A proporção de contraste recomendada pelas WCAG, de 4.5:1, aplica-se para uso de cores, bem como de combinações da escala de cinza.</p>
+
+  <p>Usuários daltônicos têm problemas para distinguir algumas cores - geralmente em tonalidade mas, às vezes, também em luz. Lembre-se que a relação de contraste é calculada usando os valores da luminosidade das cores de primeiro plano e de fundo.</p>
+
+  <p>Na prática, a relação 4.5:1 de contraste pode ser alcançada adicionando preto à cor mais escura e adicionando branco à cor mais clara. As tonalidades mais escuras do círculo cromático são consideradas a partir de azuis, violetas, magentas e vermelhos, enquanto que tonalidades claras são laranjas, amarelos, verdes e verdes-azulados.</p>
+
+  <p>O Camper Cat está experimentando usar cores no texto e no fundo do seu blog, mas sua combinação atual de verde para <code>background-color</code> e marrom para <code>color</code> tem uma relação de contraste de 2.5:1. Você pode facilmente ajustar a luz das cores, pois ele as declarou usando a propriedade CSS <code>hsl()</code> (que significa hue – tonalidade –, saturation – saturação –, lightness – luz –). Para isso, altere o terceiro argumento. Aumente o valor da luz em <code>background-color</code> de 35% para 55% e diminua o valor da luz em <code>color</code> de 20% para 15%. Isso melhora o contraste em 5.9:1.</p>
+</body>
+</html>
