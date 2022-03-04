@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Melhorar a acessibilidade de gráficos com o elemento figure</title>
+</head>
+<body>
+  <h1>Melhorar a acessibilidade de gráficos com o elemento figure</h1>
+
+  <p>O HTML5 introduziu o elemento <code>figure</code>, juntamente com o <code>figcaption</code>. Usados ​​juntos, esses elementos envolvem uma representação visual (como uma imagem, diagrama ou gráfico) junto de sua legenda. Isso aumenta a acessibilidade em duas partes, agrupando semanticamente o conteúdo relacionado e fornecendo uma alternativa textual que explica a imagem contida em <code>figure</code>.</p>
+
+  <p>Para a visualização de dados na forma de gráficos, a legenda pode ser usada para registrar de modo sucinto as tendências ou conclusões para usuários com deficiência visual. Outro desafio abrange como mover uma versão dos dados contidos em uma tabela de um gráfico para fora da tela (usando CSS) para usuários de leitores de tela.</p>
+  
+  <p>Um exemplo: observe que o elemento <code>figcaption</code> vai dentro da tag <code>figure</code> e pode ser combinada com outros elementos:</p>
+  
+  <pre>
+    &ltfigure&gt
+      &ltimg src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick"&gt
+      &ltbr&gt
+      &ltfigcaption&gt
+        Master Camper Cat demonstrates proper form of a roundhouse kick.
+      &lt/figcaption&gt
+    &lt/figure&gt
+  </pre>
+
+  <p>O Camper Cat está trabalhando a sério na criação de um gráfico de barras empilhadas que mostra o tempo por semana que ele deve passar nos treinamentos de furtividade, combate e armas. Ajude-o a estruturar melhor sua página alterando a tag <code>div</code> para a tag <code>figure</code>. Altere também a tag <code>p</code>, que envolve a legenda, para uma tag <code>figcaption</code>.</p>
+
+</body>
+</html>
