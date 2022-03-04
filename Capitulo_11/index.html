@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Melhorar a acessibilidade de campos de formulário com o elemento label</title>
+</head>
+<body>
+  <h1>Melhorar a acessibilidade de campos de formulário com o elemento label</h1>
+
+  <p>Melhorar a acessibilidade com a marcação semântica HTML se aplica ao uso de nomes de tag e atributos apropriados. Os desafios a seguir mostram alguns cenários importantes quanto ao uso de atributos em formulários.</p>
+
+  <p>A tag <code>label</code> envolve o texto que será associado a um campo de input no formulário. Isso dá significado ao campo de input e torna o formulário mais legível. O atributo <code>for</code> em uma tag <code>label</code> associa explicitamente esse <code>label</code> ao campo de input no formulário e é usado por leitores de tela.</p>
+
+  <p>Você aprendeu sobre botões de opção (radio buttons) e seus rótulos (labels) em uma lição na seção HTML básico. Naquela lição, envolvemos o elemento de opção dentro de um elemento <code>label</code> junto com o texto do rótulo para tornar o texto clicável. Outra maneira de conseguir isso é usando o atributo <code>for</code>, conforme explicado nesta lição.</p>
+
+  <p>O valor do atributo <code>for</code> deve ser igual ao valor do atributo <code>id</code> contido no campo de input. Exemplo:</p>
+
+  <pre>
+    &ltform&gt
+      &ltlabel for="name"&gtName:&lt/label&gt
+      &ltinput type="text" id="name" name="name"&gt
+    &lt/form&gt
+  </pre>
+
+  <p>O Camper Cat espera que muita gente se interesse pelas postagens em seu blog e deseja incluir um formulário de inscrição por e-mail. Adicione um atributo <code>for</code> no <code>label</code> do e-mail, cujo valor corresponda ao valor do <code>id</code> do elemento <code>input</code>.</p>
+</body>
+</html>
