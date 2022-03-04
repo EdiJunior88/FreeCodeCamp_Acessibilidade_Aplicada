@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Adicionar um seletor de data acessível</title>
+</head>
+<body>
+  <h1>Adicionar um seletor de data acessível</h1>
+
+  <p>Formulários frequentemente incluem o campo <code>input</code>, que pode ser usado para criar diferentes tipos de inputs no formulário. O atributo <code>type</code> nesse elemento indica qual tipo de elemento <code>input</code> deve ser criado.</p>
+
+  <p>Você deve ter notado os tipos de input <code>text</code> e <code>submit</code> em desafios anteriores. O HTML5 introduziu uma opção para especificar um campo <code>date</code>. Dependendo do suporte do navegador, o seletor de data aparece dentro do <code>input</code> quando este está em foco, o que deixa o preenchimento do formulário mais fácil para todos os usuários.</p>
+
+  <p>Em navegadores antigos, o tipo será convertido para o padrão <code>text</code>, o que ajuda a mostrar aos usuários o formato da data esperado no texto da <code>label</code> ou do <code>placeholder</code>.</p>
+
+  <p>Exemplo:</p>
+
+  <pre>
+    &ltlabel for="input1"&gtEnter a date:&lt/label&gt
+    &ltinput type="date" id="input1" name="input1"&gt
+  </pre>
+
+  <p>O Camper Cat está organizando um campeonato de Mortal Kombat e quer perguntar para os competidores qual a melhor data. Adicione uma tag <code>input</code> com um atributo <code>type</code> com o valor <code>date</code>, um atributo <code>id</code> com o valor <code>pickdate</code> e um atributo <code>name</code> com o valor <code>date</code>.</p>
+</body>
+</html>
