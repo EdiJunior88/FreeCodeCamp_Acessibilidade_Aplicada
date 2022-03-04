@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Usar tabindex para especificar a ordem do foco em vários elementos usando o teclado</title>
+</head>
+<body>
+  <h1>Usar tabindex para especificar a ordem do foco em vários elementos usando o teclado</h1>
+
+  <p>O atributo <code>tabindex</code> também especifica a ordem em que a tecla tab percorrerá os elementos. Isso é obtido quando o valor do atributo é definido como um número positivo (1 ou acima).</p>
+
+  <p>Definir um <code>tabindex="1"</code> fará com que o foco seja levado para esse elemento quando o usuário apertar a tecla tab pela primeira vez. Em seguida, o foco passará ao próximo elemento que tem um <code>tabindex</code> maior que o anterior. Quando não existirem mais itens para receberem foco, ele volta ao valor inicial - <code>tabindex="0"</code>.</p>
+
+  <p>É importante observar que quando a ordem da tecla tab é definida dessa forma, ela sobrescreve a ordem padrão (que se baseia no código HTML). Isso pode confundir os usuários que esperam iniciar a navegação do topo da página. Esta técnica pode ser necessária em algumas circunstâncias, mas, em termos de acessibilidade, tome cuidado antes de aplicá-la.</p>
+
+  <p>Exemplo:</p>
+
+  <pre>
+    &ltdiv tabindex="1"&gtI get keyboard focus, and I get it first!&lt/div&gt
+    &ltdiv tabindex="2"&gtI get keyboard focus, and I get it second!&lt/div&gt
+  </pre>
+
+  <p>O Camper Cat tem um campo de pesquisa em sua página Citações Inspiradoras, o qual ele planeja posicionar no canto superior direito com CSS. Ele deseja que os controles de formulário search <code>input</code> e submit <code>input</code> sejam os dois primeiros itens na ordem das guias. Adicione um atributo <code>tabindex</code> definido como <code>1</code> para o <code>search</code> <code>input</code> e um atributo <code>tabindex</code> definido como <code>2</code> para o <code>submit</code> <code>input</code>.</p>
+
+  <p>Outra questão a ser observada é o fato de que alguns navegadores podem colocar você no meio da ordem de navegação via tecla "tab" quando um elemento é clicado. Um elemento foi adicionado à página que garante que você sempre iniciará no início de sua ordem ao pressionar a tecla tab.</p>
+</body>
+</html>
