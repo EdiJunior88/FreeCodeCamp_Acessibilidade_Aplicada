@@ -15,6 +15,12 @@
 
 <hr>
 
+<h3>Tecnologias Utilizadas</h3>
+
+Para ver todas as tecnologias [clique aqui](/techstack.md)
+
+<hr>
+
 <ul>
   <li>Adicionar um texto alternativo em imagens para acessibilidade de deficientes visuais</li>
   <li>Saber quando o texto alternativo (alt) deve ser deixado em branco</li>
